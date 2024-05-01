@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+			{
+				"function": "enchant_with_levels",
+				"levels": {
+					"type": "binomial",
+					"n": 90,
+					"p": 0.1
+				}
+			}
+          ]
+        }
+      ]
+    }
+	]
+}

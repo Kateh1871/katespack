@@ -1,0 +1,23 @@
+{
+	"parent": "kp:farming/root",
+	"criteria": {
+		"kill_count_dummy": {
+		"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+		"item": "minecraft:beetroot"
+		},
+		"title": "Beetroot farm",
+		"description": "Plant 80 beetrood seeds"
+	},
+	"rewards": {
+		"experience": 10,
+		"loot": [
+			"kp:weapons/farmers_tools"
+		]
+	}
+}
+		
+		

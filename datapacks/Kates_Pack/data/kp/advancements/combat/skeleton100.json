@@ -1,0 +1,22 @@
+{
+	"parent": "kp:combat/root",
+	"criteria": {
+		"kill_count_dummy": {
+		"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+		"item": "minecraft:skeleton_skull"
+		},
+		"title": "The bone zone",
+		"description": "Kill 100 skeletons"
+	},
+	"rewards": {
+		"experience": 200,
+		"loot": [
+			"kp:armor/firewalker",
+			"kp:weapons/arrows"
+			]
+	}
+}

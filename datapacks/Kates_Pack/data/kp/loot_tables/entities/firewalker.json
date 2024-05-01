@@ -1,0 +1,106 @@
+{
+  "type": "advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Firewalker Boots",
+                  "color": "gold"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Firewalker Leggings",
+                  "color": "gold"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Firewalker Chestplate",
+                  "color": "gold"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Firewalker Helmet",
+                  "color": "gold"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+	"parent": "kp:farming/wheat24",
+	"criteria": {
+		"kill_count_dummy": {
+		"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+		"item": "minecraft:wheat"
+		},
+		"title": "Lots of wheat",
+		"description": "Plant 1000 wheat seeds"
+	},
+	"rewards": {
+		"experience": 150,
+		"loot": [
+			"kp:weapons/farmers_tools"
+		]
+	}
+}
+		
+		

@@ -1,0 +1,23 @@
+{
+	"parent": "kp:farming/root",
+	"criteria": {
+		"kill_count_dummy": {
+		"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+		"item": "minecraft:potato"
+		},
+		"title": "Potato farm",
+		"description": "Plant 80 potatos"
+	},
+	"rewards": {
+		"experience": 10,
+		"loot": [
+			"kp:weapons/farmers_tools"
+		]
+	}
+}
+		
+		

@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Skullcracker\",\"color\":\"black\",\"bold\":true}'},Enchantments:[{id:\"minecraft:smite\",lvl:10s},{id:\"minecraft:sweeping\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:vanishing_curse\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:1,Operation:0,UUID:[I;-1206513815,-282769401,-1193175810,-1695206775]}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:stone_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Skullcracker\",\"color\":\"black\",\"bold\":true}'},Enchantments:[{id:\"minecraft:smite\",lvl:10s},{id:\"minecraft:efficiency\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

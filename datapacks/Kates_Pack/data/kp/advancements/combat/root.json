@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"kill_count_dummy": {
+		"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+		"item": "minecraft:iron_sword"
+		},
+		"title": "Combat",
+		"description": "Kill a mob",
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	}
+}
+		
+		

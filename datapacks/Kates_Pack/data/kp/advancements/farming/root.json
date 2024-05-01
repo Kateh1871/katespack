@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "consumed_item": {
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
+    "description": "Animals and Crops",
+    "icon": {
+      "item": "minecraft:bread"
+    },
+    "show_toast": false,
+    "title": "Farming"
+  },
+  "requirements": [
+    [
+      "consumed_item"
+    ]
+  ]
+}

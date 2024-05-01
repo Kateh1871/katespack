@@ -1,0 +1,24 @@
+{
+	"parent": "kp:combat/root",
+	"criteria": {
+		"kill_count_dummy": {
+		"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+		"item": "minecraft:zombie_head"
+		},
+		"title": "Zombie control",
+		"description": "Kill 100 zombies"
+	},
+	"rewards": {
+		"experience": 200,
+		"loot": [
+			"kp:armor/firewalker",
+			"kp:weapons/arrows"
+			]
+	}
+}
+		
+		

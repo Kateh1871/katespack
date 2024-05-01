@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{color:5791576},HideFlags:192,Enchantments:[{id:\"minecraft:protection\",lvl:10s}],Trim:{material:\"minecraft:netherite\",pattern:\"minecraft:host\"}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Oppenheimer's Hat"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Lead lined"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

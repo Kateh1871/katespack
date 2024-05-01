@@ -1,0 +1,26 @@
+{
+	"parent": "kp:combat/kill100",
+	"criteria": {
+		"kill_count_dummy": {
+		"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+		"item": "minecraft:diamond_sword"
+		},
+		"title": "Destroyer of worlds",
+		"description": "Kill 1000 mobs"
+	},
+	"rewards": {
+		"experience": 200,
+		"loot": [
+			"kp:armor/firewalker",
+			"kp:armor/oppenhiemer",
+			"kp:weapons/arrows"
+			]
+	}
+	}
+}
+		
+		

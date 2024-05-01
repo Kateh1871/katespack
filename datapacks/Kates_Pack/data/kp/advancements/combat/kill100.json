@@ -1,0 +1,20 @@
+{
+	"parent": "kp:combat/root",
+	"criteria": {
+		"kill_count_dummy": {
+		"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+		"item": "minecraft:iron_sword"
+		},
+		"title": "I am become death",
+		"description": "Kill 100 mobs"
+	},
+	"rewards": {
+		"experience": 20
+	}
+}
+		
+		

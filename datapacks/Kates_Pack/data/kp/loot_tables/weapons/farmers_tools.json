@@ -1,0 +1,110 @@
+{
+  "type": "advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:stone_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:5s},{id:\"minecraft:fortune\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Farmers Pickaxe",
+                  "color": "#1EB019",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:stone_hoe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:fortune\",lvl:1s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Farmers Hoe",
+                  "color": "#1EB019",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:stone_shovel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Farmers Shovel",
+                  "color": "#1EB019",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:stone_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:5s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Farmers Axe",
+                  "color": "#1EB019",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

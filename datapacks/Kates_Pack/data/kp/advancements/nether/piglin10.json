@@ -1,0 +1,22 @@
+{
+	"parent": "minecraft:nether/find_bastion",
+	"criteria": {
+		"kill_count_dummy": {
+		"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+		"item": "minecraft:golden_axe"
+		},
+		"title": "Piglin master",
+		"description": "Kill 10 Piglin Brutes"
+	},
+	"rewards": {
+		"experience": 100,
+		"loot": [
+			"kp:armor/firewalker",
+			"kp:weapons/arrows"
+			]
+	}
+}

@@ -1,0 +1,47 @@
+{
+  "type": "advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{color:3178496},Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:thorns\",lvl:6s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Cactus Cap",
+                  "color": "dark_green"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Pointy",
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

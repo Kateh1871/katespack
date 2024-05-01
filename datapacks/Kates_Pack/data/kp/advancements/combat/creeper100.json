@@ -1,0 +1,21 @@
+{
+	"parent": "kp:combat/root",
+	"criteria": {
+		"kill_count_dummy": {
+		"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+		"item": "minecraft:creeper_head"
+		},
+		"title": "Creeper?",
+		"description": "Kill 100 creepers"
+	},
+	"rewards": {
+		"experience": 200,
+		"loot": [
+			"kp:weapons/arrows"
+			]
+	}
+}

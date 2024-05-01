@@ -1,0 +1,20 @@
+{
+	"parent": "kp:farming/root",
+	"criteria": {
+		"kill_count_dummy": {
+		"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+		"item": "minecraft:wheat"
+		},
+		"title": "Wheat farm",
+		"description": "Plant 80 wheat seeds"
+	},
+	"rewards": {
+		"experience": 10
+	}
+}
+		
+		
